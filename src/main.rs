@@ -9,6 +9,7 @@ use tracing::{info, error};
 use tokio::signal;
 use tracing_subscriber::EnvFilter;
 
+
 #[derive(Debug, Clone)]
 struct StockPrice {
     symbol: String,
