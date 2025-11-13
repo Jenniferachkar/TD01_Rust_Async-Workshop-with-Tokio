@@ -4,8 +4,8 @@
 ## Overview
 This repository contains two complete Rust workshops built with Tokio, covering:
 
-TD1 — Async Programming & Database Integration
-TD2 — WebSockets, Broadcasting & Real-Time Dashboard
+TD1: Async Programming & Database Integration
+TD2: WebSockets, Broadcasting & Real-Time Dashboard
 
 ## Features
 Multiple APIs (Alpha Vantage, Finnhub, and a mock)
