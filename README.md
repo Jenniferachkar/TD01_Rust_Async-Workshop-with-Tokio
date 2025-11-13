@@ -72,3 +72,18 @@ cd TD2
 cargo run
 ```
 Open the included HTML file: dashboard.html
+
+How to test : Create a file test.html
+```html
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+const ws = new WebSocket("ws://127.0.0.1:8080");
+ws.onopen = () => ws.send("Hello Nathan c'est Jenny");
+ws.onmessage = (e) => console.log("Received:", e.data);
+</script>
+</body>
+</html>
+```
+Open it in Chrome, open DevTools (F12), Console.
