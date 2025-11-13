@@ -1,4 +1,4 @@
-# TD01_Rust_Async-Workshop-with-Tokio
+# TD01_Rust_Async-Workshop-with-Tokio & TD_02_Rust_WebSocket_Workshop_with_Tokio
 ### by Jennifer El Achkar
 
 ---
@@ -29,11 +29,17 @@ Clear structured logs
 ---
 ## Project Structure
 ```css
-├── Cargo.toml          # Project dependencies
-├── schema.sql          # Database schema (table creation)
-├── src/
-│   └── main.rs         # Main Rust source code
-└── .gitignore
+TD1_2_Rust_Tokio/
+│
+├── TD1/
+│   ├── rust-1.md      
+│
+├── TD2/
+│   ├── rust-2.md      
+│   ├── src/
+│   │   ├── main.rs    
+│   ├── Cargo.toml     
+
 ```
 ---
 
